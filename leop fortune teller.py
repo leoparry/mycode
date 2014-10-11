@@ -3,13 +3,16 @@
 import random
 import time
 
-print ("welcome to leo's fortune teller")
+print ("welcome to leo's fortune teller!")
 
 name = input("what is your name\n")
-color = input("what is your favourite colour?")
-print ("I will now select your fortune on your selection of", color)
+color = input("what is your favourite colour?\n")
+lol = input("on a scale of one to ten, how awesome are you?\n")
+people = input("how many members are there of your family?\n")
+place = input("Where do you live?\n")
+print ("I will now select your fortune on your selection of", color, name, lol, people, place)
 
-time.sleep(2)
+time.sleep(5)
 
 fortunes = ["You will win the lottery",
             "You wil have a good life",
