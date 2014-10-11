@@ -18,10 +18,7 @@ right(90)
 pencolor('green')
 for x in range (100):
     forward(1)
-    
-
-
-
+    turtlesize(3)
 time.sleep(10)
 
 
