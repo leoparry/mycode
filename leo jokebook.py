@@ -1,6 +1,6 @@
 q = "what is the difference between a fly and a bird?!"
 a = "a bird can fly but a fly can\'t bird!"
-
+print ('welcome to my jokebook!')
 if input() == (q):
     print (q)
 
