@@ -16,9 +16,11 @@ left (180)
 forward (50)
 right(90)
 pencolor('green')
-for x in range (100):
+forward(100)
+left (180)
+forward (50)
+pencolor('purple')
+for x in range(360):
+    left (1)
     forward(1)
-    turtlesize(3)
-time.sleep(10)
-
 
