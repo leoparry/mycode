@@ -6,6 +6,7 @@ import time
 print ("welcome to leo's fortune teller!")
 
 name = input("what is your name\n")
+print('hello', name)
 color = input("what is your favourite colour?\n")
 lol = input("on a scale of one to ten, how awesome are you?\n")
 people = input("how many members are there of your family?\n")
